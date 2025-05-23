@@ -38,3 +38,7 @@ What will the different parts of the project be made of?
 | The backend         | TypeScript (Node/Deno), C#, **possibly** Python for ML                                                        |
 | Front-end/Apps      | C# for desktop/mobile applications, TypeScript (React, TSX) for the web inteface, and C++ for the IoT screens |
 | Edge-devices        | C++                                                                                                           |
+
+> [!NOTE]  
+> WeatherStack Core (The backend) and Nodes are designed to run on a device (Raspberry Pi Recommended) by it's self, as it it is constantly processing data.
+> This also means that WeatherStack can maintain the system, any tunnels, and it's self easily.
